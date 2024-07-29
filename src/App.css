@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.profile {
+  margin-top: 20px;
+  text-align: center; /* Center the profile content */
+}
+
+.profile img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 150px; /* Adjust width */
+  height: 150px; /* Adjust height */
+  object-fit: cover; /* Ensures the image covers the dimensions */
+  border: 3px solid #ddd; /* Add a border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.profile h2 {
+  font-size: 1.5em;
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.profile p {
+  font-size: 1em;
+  color: #555; /* Change text color for better readability */
 }
